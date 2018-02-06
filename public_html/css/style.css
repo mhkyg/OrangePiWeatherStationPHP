@@ -1,0 +1,52 @@
+
+ html, body
+{
+    font-size: 25px;
+    height: 100%;
+}
+.panel-body , .glyphicon-home{
+  font-size: 1rem;
+}
+.panel-heading{
+  font-size: 0.8rem;
+}
+@media only screen and (max-width: 997px) {
+
+   html, body { font-size: 32px; }
+  
+}
+.debug_data{
+  position: fixed;
+  bottom: 0px;
+  font-size: 0.5rem;  
+}
+small{
+  opacity: 0.7;
+}
+.humidity{
+  padding-left: 45px;
+  background:  left center no-repeat; 
+  background-image: url(../images/humidity.png); 
+  background-size: auto 100%;
+}
+.temperature{
+  padding-left: 40px;
+  background:  left center no-repeat;
+  background-size: auto 100%;
+}
+.temperature1{
+  background-image: url(../images/Temperature-1-32.png);
+}
+.temperature2{
+  background-image: url(../images/Temperature-2-32.png);
+}
+.temperature3{
+  background-image: url(../images/Temperature-3-32.png);
+}
+.temperaturet4{
+  background-image: url(../images/Temperature-4-32.png);
+}
+h3{
+  font-size: 1rem;
+  border-bottom: 1px dotted #ccc;
+}
