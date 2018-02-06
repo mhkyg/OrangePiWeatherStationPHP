@@ -2,6 +2,7 @@
 # OrangePIZero Weather Station PHP
 Complete rewrite in PHP
 Uses Kernel userspace GPIO
+Is far from beeing usable
 
 ##Supported components:
 DHT22
